@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="/IMG/bird-thumbnail.jpg" alt="Profile image of John Doe" width="30px" height="30px">
+        <p>My Name</p>
+      </div>
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Frontend Developer</h1>
+    <h3>Only HTML styling website</h3>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="projects.html">HTML only portfolio</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="quiz.html">Quiz App</a></li>
+        <li><a href="timer.html">Countdown Timer</a></li>
+      </ul>
+    </section>
+
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <p>Solved all the frontend problems.</p>
+      <a href="#">Visit my profile</a>
+    </section>
+
+    <section id="opensource-work">  
+      <h2>Opensource Work </h2>
+      <p>Contributed to over 50 opensource projects.</p>
+      <a href="#">Visit my profile</a>
+    </section>
+    
+    <section id="education">
+      <h2>Education</h2>
+      <p>Graduated with 3.76 out of 4 CGPA.</p>
+      <h3>Courses I Took:</h3>
+      <ul>
+        <li>Web Development</li>
+        <li>Data Structures</li>
+        <li>Algorithms</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </section>
+    
+    <section id="reviews">
+      <h2>Reviews from My Teachers</h2>
+      <div>
+        <blockquote>
+          <p>John Doe was the best student in the whole university. Stood out with his assignments.</p>
+          <cite>Jane Doe, Assistant Professor</cite>
+        </blockquote>
+      </div>
+
+      <div>
+        <blockquote>
+          <p>John Doe was the best student in the whole university. Stood out with his assignments.</p>
+          <cite>Jane Doe, Assistant Professor</cite>
+        </blockquote>
+      </div>
+
+      <div>
+        <blockquote>
+          <p>John Doe was the best student in the whole university. Stood out with his assignments.</p>
+          <cite>Jane Doe, Assistant Professor</cite>
+        </blockquote>
+      </div>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
